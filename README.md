@@ -6,6 +6,8 @@ Official implementation of the paper: *[Efficient Backpropagation with Variance 
 
 VCAS is an efficient unbiased sampling method to accelerate back propagation (BP). It can achieve an up to **73.87%** FLOPs reduction of BP with lossless performance under theoretical guarantee. [Example Results](https://wandb.ai/thuwzt/vcas).
 
+![VCAS algorithm diagram](image/algorithm.png)
+
 ### Installation
 **Requirements**: Python >= 3.7 + CUDA >= 11.0 + torch >= 1.12.0 + transformers >= 4.21.0
 
