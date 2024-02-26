@@ -1,11 +1,8 @@
 export TASK_NAME=sst2
 export RESULTS_DIR=./results/$TASK_NAME/
 
-export TRANSFORMERS_OFFLINE=1
-export HF_DATASETS_OFFLINE=1
-
 mkdir -p $RESULTS_DIR
-CUDA_VISIBLE_DEVICES=0 python run_glue.py \
+python run_glue.py \
   --model_name_or_path bert-base-cased \
   --task_name $TASK_NAME \
   --do_train \
