@@ -1,0 +1,15 @@
+# Build
+build/
+*.egg-info
+*.so
+
+# Python
+*.pyc
+__pycache__
+
+# VIM
+*.swp
+
+# Others
+.DS_Store
+.vscode
