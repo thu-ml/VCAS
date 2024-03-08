@@ -1,6 +1,6 @@
 <h2 align=center>VCAS: variance-controlled adaptive sampling</h1>
 
-Official implementation of the paper: *[Efficient Backpropagation with Variance Controlled Adaptive Sampling](https://openreview.net/pdf?id=gEwKAZZmSw)* (**ICLR 2024**).
+Official implementation of the paper: *[Efficient Backpropagation with Variance Controlled Adaptive Sampling](https://arxiv.org/pdf/2402.17227.pdf)* accepted by **ICLR 2024**.
 
 ### Abstract
 
